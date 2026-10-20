@@ -1,0 +1,1 @@
+<footer class="site-footer"><strong><?php bloginfo('name'); ?></strong><p><?php echo esc_html(get_bloginfo('description')); ?></p><small>Website resmi Pondok Pesantren Al-Aqsha. Pastikan informasi dan kontak diperbarui oleh pengelola.</small></footer><?php wp_footer(); ?></body></html>

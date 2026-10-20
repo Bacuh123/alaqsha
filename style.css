@@ -1,0 +1,12 @@
+/*
+Theme Name: Al-Aqsha Pesantren
+Theme URI: https://www.al-aqsha.ponpes.id/
+Author: Al-Aqsha Website Project
+Description: Tema WordPress responsif untuk Pondok Pesantren Al-Aqsha.
+Version: 1.0.0
+Requires at least: 6.4
+Requires PHP: 8.0
+Text Domain: al-aqsha
+*/
+:root{--green:#145c3a;--deep:#0d3d29;--gold:#d7b76b;--cream:#f7f5ed;--ink:#17251d}
+*{box-sizing:border-box}body{margin:0;font-family:Arial,sans-serif;color:var(--ink);line-height:1.65;background:#fff}a{color:var(--green)}.site-header{background:var(--deep);color:#fff;padding:18px 5%;display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap}.brand{font-size:1.3rem;font-weight:700;color:#fff;text-decoration:none}.site-nav ul{display:flex;gap:18px;list-style:none;margin:0;padding:0;flex-wrap:wrap}.site-nav a{color:#fff;text-decoration:none;font-weight:600}.hero{padding:80px 7%;background:linear-gradient(120deg,#0d3d29ee,#145c3acc),var(--cream);color:#fff}.hero h1{font-size:clamp(2rem,5vw,3.7rem);max-width:850px;line-height:1.12;margin:0 0 18px}.hero p{max-width:680px;font-size:1.1rem}.button{display:inline-block;background:var(--gold);color:#173b29;padding:12px 20px;border-radius:6px;text-decoration:none;font-weight:700;margin:8px 8px 0 0}.section{padding:48px 7%}.section h2{color:var(--deep)}.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:20px}.card{border:1px solid #e5e9e5;border-radius:12px;padding:22px;background:#fff;box-shadow:0 5px 18px #163b2910}.card h3{margin-top:0}.eyebrow{color:var(--gold);text-transform:uppercase;letter-spacing:.12em;font-weight:700}.site-footer{background:#092b1d;color:#e9f1eb;padding:28px 7%;margin-top:30px}.site-footer a{color:#fff}.content-wrap{max-width:1000px;margin:auto;padding:40px 6%}input,textarea,select{width:100%;padding:12px;border:1px solid #cbd5ce;border-radius:6px;margin:5px 0 15px;font:inherit}button,.submit-button{background:var(--green);color:#fff;border:0;border-radius:6px;padding:12px 18px;font:inherit;cursor:pointer}.gallery-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:14px}.gallery-grid img{width:100%;height:190px;object-fit:cover;border-radius:8px}.notice{padding:14px;background:#f4f8f3;border-left:4px solid var(--green)}@media(max-width:600px){.site-header{align-items:flex-start}.site-nav ul{gap:10px}.hero{padding:55px 6%}}
